@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+background-color: #F8FAFC;
+background-image: url(./image/Background\ Pattern\ 2.png);
+background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;    
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 40%;    
+    padding-bottom: 2%;
+    margin-left: 55vh;
+    margin-top: 10vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+p,h1{
+    align-self: start;
+    text-align: left;
+    padding-left: 10%;
+}
+form{
+    align-self: start;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+input{
+    margin-top: 5px;
+    font-size: 14pt;
+    height: 35px;
+    width : 400px;
+}
+input[type="text"]{
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  input[type="email"]{
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  input[type="password"]{
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #continue{
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  #loginRedirect{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+
+
+  @media screen and (min-width: 400px) and (max-width: 600px) {
+    body {
+      font-size: 14px; 
+      text-align: center;
+    }
+
+    input{
+        margin-top: 5px;
+        font-size: 12px;
+        height: 35px;
+        width : 180px;
+    }
+    #continue{
+        width: 180px;
+        height: 60px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    .container{
+        text-align: center;    
+        justify-content: center;
+        align-items: center;
+        margin-left: 30vh;
+    }
+    body{
+        background-color: #F8FAFC;
+        background-image: url(./image/Background\ Pattern\ 2.png);
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        }
+ 
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 955px) {   
+    body {
+      font-size: 14px; 
+      text-align: center;
+    }
+
+    input{
+        margin-top: 5px;
+        font-size: 12px;
+        height: 35px;
+        width : 200px;
+    }
+    #continue{
+        width: 200px;
+        height: 60px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .container{
+        text-align: center;    
+        justify-content: center;
+        align-items: center;
+        margin-left: 50vh;
+    }
+    body{
+        background-color: #F8FAFC;
+        background-image: url(./image/Background\ Pattern\ 2.png);
+        background-repeat: no-repeat;
+        background-position: center;      
+        }
+ 
+  }
+
